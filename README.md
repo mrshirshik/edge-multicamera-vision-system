@@ -3,7 +3,7 @@
 This repository contains the system design and engineering skeleton for a real-time multi-camera intelligent vision system deployed on NVIDIA edge devices.
 
 ## Features
-- Object Detection (YOLOv8 / EfficientDet)
+- Object Detection (YOLOv8n)
 - Semantic Segmentation (DeepLabV3+)
 - Multi-Object Tracking (DeepSORT)
 - Image Stitching

@@ -1,0 +1,10 @@
+__pycache__/
+venv/
+.env
+*.pt
+*.onnx
+*.h5
+*.bin
+*.gguf
+models/
+.DS_Store
