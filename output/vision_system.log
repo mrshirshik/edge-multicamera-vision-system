@@ -1,0 +1,39 @@
+2026-01-29 18:20:15 - edge-vision - INFO - ============================================================
+2026-01-29 18:20:15 - edge-vision - INFO - Edge Multicamera Vision System Started
+2026-01-29 18:20:15 - edge-vision - INFO - ============================================================
+2026-01-29 18:20:15 - edge-vision - INFO - Configuration loaded from config/system_config.yaml
+2026-01-29 18:20:15 - edge-vision - INFO - Running complete vision pipeline...
+2026-01-29 18:20:15 - edge-vision - INFO - All components initialized
+2026-01-29 18:20:15 - edge-vision - INFO - Frame 0: 0 detections, 0 tracks
+2026-01-29 18:20:15 - edge-vision - INFO - Frame 20: 0 detections, 0 tracks
+2026-01-29 18:20:15 - edge-vision - INFO - Frame 40: 0 detections, 0 tracks
+2026-01-29 18:20:15 - edge-vision - INFO - Frame 60: 0 detections, 0 tracks
+2026-01-29 18:20:15 - edge-vision - INFO - Frame 80: 0 detections, 0 tracks
+2026-01-29 18:20:15 - edge-vision - INFO - Pipeline complete: 0 behavior clusters identified
+2026-01-29 18:24:19 - edge-vision - INFO - ============================================================
+2026-01-29 18:24:19 - edge-vision - INFO - Edge Multicamera Vision System Started
+2026-01-29 18:24:19 - edge-vision - INFO - ============================================================
+2026-01-29 18:24:19 - edge-vision - INFO - Configuration loaded from config/system_config.yaml
+2026-01-29 18:24:19 - edge-vision - INFO - Running object detection example...
+2026-01-29 18:24:19 - edge-vision - INFO - Found 0 detections
+2026-01-29 18:27:07 - edge-vision - INFO - ============================================================
+2026-01-29 18:27:07 - edge-vision - INFO - Edge Multicamera Vision System Started
+2026-01-29 18:27:07 - edge-vision - INFO - ============================================================
+2026-01-29 18:27:07 - edge-vision - INFO - Configuration loaded from config/system_config.yaml
+2026-01-29 18:27:07 - edge-vision - INFO - Running complete vision pipeline...
+2026-01-29 18:27:07 - edge-vision - INFO - All components initialized
+2026-01-29 18:27:07 - edge-vision - INFO - Frame 0: 0 detections, 0 tracks
+2026-01-29 18:27:07 - edge-vision - INFO - Frame 20: 0 detections, 0 tracks
+2026-01-29 18:27:07 - edge-vision - INFO - Frame 40: 0 detections, 0 tracks
+2026-01-29 18:27:07 - edge-vision - INFO - Frame 60: 0 detections, 0 tracks
+2026-01-29 18:27:07 - edge-vision - INFO - Frame 80: 0 detections, 0 tracks
+2026-01-29 18:27:07 - edge-vision - INFO - Pipeline complete: 0 behavior clusters identified
+2026-01-29 18:27:20 - edge-vision - INFO - ============================================================
+2026-01-29 18:27:20 - edge-vision - INFO - Edge Multicamera Vision System Started
+2026-01-29 18:27:20 - edge-vision - INFO - ============================================================
+2026-01-29 18:27:20 - edge-vision - INFO - Configuration loaded from config/system_config.yaml
+2026-01-29 18:27:20 - edge-vision - INFO - Running clustering example...
+2026-01-29 18:27:20 - edge-vision - INFO - Generated 3 clusters
+2026-01-29 18:27:20 - edge-vision - INFO -   Cluster 0: {'num_members': 5, 'avg_velocity': 1.0, 'max_velocity': 1.0, 'behavior_type': 'slow_moving'}
+2026-01-29 18:27:20 - edge-vision - INFO -   Cluster 1: {'num_members': 5, 'avg_velocity': 2.0, 'max_velocity': 2.0, 'behavior_type': 'slow_moving'}
+2026-01-29 18:27:20 - edge-vision - INFO -   Cluster 2: {'num_members': 5, 'avg_velocity': 0.0, 'max_velocity': 0.0, 'behavior_type': 'static'}

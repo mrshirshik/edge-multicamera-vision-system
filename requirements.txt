@@ -1,0 +1,38 @@
+"""
+Requirements and Dependencies
+All required Python packages for the edge vision system
+"""
+
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# Deep Learning and Inference
+torch>=1.10.0
+torchvision>=0.11.0
+onnx>=1.10.0
+onnxruntime>=1.10.0
+
+# Machine Learning and Clustering
+scikit-learn>=0.24.0
+scipy>=1.7.0
+
+# Configuration
+PyYAML>=5.4.0
+
+# Logging and Utilities
+python-dotenv>=0.19.0
+
+# Optional: NVIDIA-specific
+# tensorrt>=8.0.0  # Uncomment for TensorRT support
+# cuda-python>=11.0  # Uncomment for CUDA Python bindings
+
+# Development and Testing
+pytest>=6.2.0
+black>=21.0
+pylint>=2.10.0
+
+# Optional: Real-time Features
+# redis>=3.5.0  # For message queue
+# Flask>=2.0.0  # For REST API

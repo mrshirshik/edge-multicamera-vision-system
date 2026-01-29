@@ -1,0 +1,3 @@
+2026-01-29 18:23:18 - example_detection - INFO - Detection pipeline initialized
+2026-01-29 18:23:18 - example_detection - INFO - Image preprocessed: (480, 640, 3)
+2026-01-29 18:23:18 - example_detection - INFO - Found 0 detections

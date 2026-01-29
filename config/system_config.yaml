@@ -1,0 +1,58 @@
+# System Configuration
+# YAML configuration for the vision system
+
+system:
+  name: "Edge Multicamera Vision System"
+  version: "1.0.0"
+  device: "nvidia_jetson"  # jetson_orin, jetson_xavier, or gpu
+  
+camera:
+  max_streams: 4
+  fps: 30
+  resolution: [1920, 1080]
+  cameras:
+    - id: "cam0"
+      source: "rtsp://localhost:8554/stream0"
+      resolution: [1920, 1080]
+      fps: 30
+    # Add more cameras as needed
+
+inference:
+  object_detection:
+    model_path: "models/yolov8n.onnx"
+    model_type: "yolov8"
+    confidence_threshold: 0.5
+    nms_threshold: 0.4
+    use_tensorrt: true
+    device: "cuda"
+    
+  segmentation:
+    model_path: "models/deeplab_v3.onnx"
+    model_type: "deeplab"
+    device: "cuda"
+
+tracking:
+  max_age: 70
+  min_hits: 3
+  iou_threshold: 0.3
+
+clustering:
+  n_clusters: 3
+  method: "kmeans"  # kmeans or dbscan
+
+processing:
+  resize_enabled: true
+  target_size: [640, 480]
+  normalize: true
+  brightness_adjust: false
+  contrast_adjust: false
+
+output:
+  save_frames: false
+  save_directory: "output/frames"
+  save_video: false
+  video_output: "output/video.mp4"
+  
+logging:
+  level: "INFO"
+  file: "logs/vision_system.log"
