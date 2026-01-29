@@ -1,0 +1,7 @@
+[property]
+gpu-id=0
+batch-size=8
+network-type=0
+model-engine-file=yolov8_int8.engine
+labelfile-path=labels.txt
+interval=0
